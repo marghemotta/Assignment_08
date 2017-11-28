@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i', '-g', 'ngrok' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'ngrok', null ]
+7 verbose cache add spec ngrok
+8 silly cache add parsed spec { raw: 'ngrok',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: 'ngrok',
+8 silly cache add   spec: '/Users/Marghe/Desktop/Università/Creative Coding/08/Assignment_08/ngrok',
+8 silly cache add   type: 'local' }
+9 silly addLocalTarball shasum (computed) ac915be673d4d060038e77beba7ec5c8d5754170
+10 verbose addTmpTarball /Users/Marghe/Desktop/Università/Creative Coding/08/Assignment_08/ngrok not in flight; adding
+11 verbose getCacheStat cache creation not in flight; initializing
+12 verbose addTmpTarball validating metadata from /Users/Marghe/Desktop/Università/Creative Coding/08/Assignment_08/ngrok
+13 verbose tar unpack /Users/Marghe/Desktop/Università/Creative Coding/08/Assignment_08/ngrok
+14 verbose tar unpacking to /var/folders/lz/fljhv6yx0md9y7q5_80p6y100000gn/T/npm-3139-bc4a1847/unpack-4060e965f366
+15 silly gentlyRm /var/folders/lz/fljhv6yx0md9y7q5_80p6y100000gn/T/npm-3139-bc4a1847/unpack-4060e965f366 is being purged
+16 verbose gentlyRm don't care about contents; nuking /var/folders/lz/fljhv6yx0md9y7q5_80p6y100000gn/T/npm-3139-bc4a1847/unpack-4060e965f366
+17 silly gunzTarPerm modes [ '755', '644' ]
+18 error not a package /Users/Marghe/Desktop/Università/Creative Coding/08/Assignment_08/ngrok
+19 error addLocal Could not install /Users/Marghe/Desktop/Università/Creative Coding/08/Assignment_08/ngrok
+20 verbose stack Error: ENOENT, open '/var/folders/lz/fljhv6yx0md9y7q5_80p6y100000gn/T/npm-3139-bc4a1847/unpack-4060e965f366/package.json'
+20 verbose stack     at Error (native)
+21 verbose cwd /Users/Marghe/Desktop/Università/Creative Coding/08/Assignment_08
+22 error Darwin 15.0.0
+23 error argv "node" "/usr/local/bin/npm" "i" "-g" "ngrok"
+24 error node v0.12.7
+25 error npm  v2.11.3
+26 error path /var/folders/lz/fljhv6yx0md9y7q5_80p6y100000gn/T/npm-3139-bc4a1847/unpack-4060e965f366/package.json
+27 error code ENOENT
+28 error errno -2
+29 error enoent ENOENT, open '/var/folders/lz/fljhv6yx0md9y7q5_80p6y100000gn/T/npm-3139-bc4a1847/unpack-4060e965f366/package.json'
+29 error enoent This is most likely not a problem with npm itself
+29 error enoent and is related to npm not being able to find a file.
+30 verbose exit [ -2, true ]
